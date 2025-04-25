@@ -1,0 +1,13 @@
+{
+  "name": "supply-stream-e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-end tests for the Supply Stream platform",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.1",
+    "typescript": "^5.0.3"
+  }
+}
